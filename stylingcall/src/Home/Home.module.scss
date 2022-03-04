@@ -1,23 +1,27 @@
 @import "../colors";
 
-.primaryColorText{
+.primaryColorText {
   color: $primary-color-text;
 }
 
-.white{
+.white {
   color: $white;
 }
 
-.firstViewed{
+.firstViewed {
   position: relative;
 }
 
+.grassetto {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1070px) and (max-width: 1920px) {
-  .firstViewed img{
+  .firstViewed img {
     width: 1920px;
   }
 
-  .titleContainer{
+  .titleContainer {
     position: absolute;
     right: 85px;
     top: 148px;
@@ -30,14 +34,14 @@
     padding: 47px;
   }
 
-  .firstViewed{
+  .firstViewed {
     width: 100%;
     overflow-x: hidden;
     display: flex;
     justify-content: end;
   }
 
-  .titleContainer p{
+  .titleContainer p {
     height: 100%;
     width: 100%;
     background-color: $filtroScurente1;
@@ -50,7 +54,102 @@
     text-transform: uppercase;
     font-weight: 500;
   }
+
+  .stylingCall {
+    background-image: url("../Assets/images/sfondoSC.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .adattaATe {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .stylingCall p {
+    font-size: 30px;
+  }
+
+  .stylingCallTitle {
+    font-size: 72px !important;
+    margin-bottom: 5%;
+  }
+
+  .adattaATeTitle {
+    font-size: 72px;
+  }
+  .stylingCallContainer {
+    padding: 130px;
+  }
+
+  .adattaATe .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adattaATe .col2Container {
+    width: 55%;
+  }
+
+  .adattaATe .col2Container .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .adattaATe .row .col1 {
+    display: flex;
+  }
+  .adattaATe .row .col1 img {
+    height: 70px;
+  }
+  .adattaATe .row .col2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .adattaATe .container > .col1 {
+    display: flex;
+  }
+
+  .adattaATe .container > .col1 img {
+    height: 75vh;
+  }
+
+  .btnPrenota {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnPrenota p {
+    background-color: $primary-color-text;
+    padding: 10px;
+    border-radius: 20px;
+    color: $white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
+
+.block1 img {
+  width: 100%;
+}
 
 
