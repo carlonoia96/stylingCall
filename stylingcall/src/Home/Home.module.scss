@@ -1,0 +1,56 @@
+@import "../colors";
+
+.primaryColorText{
+  color: $primary-color-text;
+}
+
+.white{
+  color: $white;
+}
+
+.firstViewed{
+  position: relative;
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1920px) {
+  .firstViewed img{
+    width: 1920px;
+  }
+
+  .titleContainer{
+    position: absolute;
+    right: 85px;
+    top: 148px;
+    width: 797px;
+    height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 47px;
+  }
+
+  .firstViewed{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: end;
+  }
+
+  .titleContainer p{
+    height: 100%;
+    width: 100%;
+    background-color: $filtroScurente1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 35px;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
+
+
