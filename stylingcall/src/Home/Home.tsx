@@ -1,12 +1,20 @@
 import React, {FC} from 'react';
 import './Home.css';
 import check from '../Assets/images/check.webp' ;
+import {InlineWidget} from "react-calendly";
 
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
 }
 
 class Home extends React.Component<HomeProps> {
+    getStyleForClalendy(){
+        const styles = {
+            width: '1000px',
+            height: '650px'
+        }
+        return styles
+    }
     render() {
         return (<>
             <div className={"firstViewed"}>
@@ -140,7 +148,9 @@ class Home extends React.Component<HomeProps> {
                 </div>
             </div>
             <div className={"prenota default-block-size"}>
-
+                <div className="App">
+                    <InlineWidget styles={this.getStyleForClalendy()} url="https://calendly.com/unacasainarmonia/60minstylingcall"/>
+                </div>
             </div>
         </>)
     }

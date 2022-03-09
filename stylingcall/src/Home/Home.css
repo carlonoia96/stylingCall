@@ -197,4 +197,9 @@
 
 .prenota{
     background-image: url("../Assets/images/prenota.webp");
+    justify-content: flex-start;
+}
+
+.prenota .App{
+    margin-left: 10%;
 }
