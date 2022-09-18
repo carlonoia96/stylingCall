@@ -21,15 +21,15 @@ class Home extends React.Component<HomeProps> {
                 <img src={require("../Assets/images/home.webp")} alt=""/>
                 <div className={"titleContainer"}>
                     <p>
-                        <span className={"primaryColorText"}>styling</span> <br/>
-                        <span className={"white"}>call</span>
+                        <span className={"primaryColorText"}>Coaching</span> <br/>
+                        <span className={"white"}>One to One</span>
                     </p>
                 </div>
             </div>
             <div className={"stylingCall"}>
                 <div className={"stylingCallContainer"}>
                     <p className={"stylingCallTitle"}><span className={"white"}>Che cos'è una</span> <span
-                        className={"primaryColorText"}>STYLING CALL ?</span></p>
+                        className={"primaryColorText"}>COACHING ONE TO ONE?</span></p>
                     <p>
                         E' una <span className={"grassetto"}>video call</span> della durata di un'ora in cui avrai
                         la possibilità di confrontarti direttamente con me, esperta del settore, che saprò darti <span
@@ -97,7 +97,7 @@ class Home extends React.Component<HomeProps> {
                             </div>
                             <div className={"col2"}>
                                 <p>
-                                    non hai una palette colori e non sai a quale stile appartieni
+                                    non hai una palette colori e/o non sai a quale stile appartieni
                                 </p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ class Home extends React.Component<HomeProps> {
                             </div>
                             <div className={"col2"}>
                                 <p>
-                                    l'indecisione è con te ogni giorno
+                                    l'indecisione è con te ogni giorno e vuoi imparare ad arredare insieme a me
                                 </p>
                             </div>
                         </div>
